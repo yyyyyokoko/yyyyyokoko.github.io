@@ -1645,6 +1645,7 @@ button,
         position: absolute;
         top: 50%;
         width: 7em; }
+    .features article content2 {column-count: 2;}
     .features article .content {
       -moz-flex-grow: 1;
       -webkit-flex-grow: 1;
