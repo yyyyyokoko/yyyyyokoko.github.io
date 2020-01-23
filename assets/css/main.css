@@ -1720,6 +1720,42 @@ button,
 .edu h4 { position: absolute; top: 0em; right: 0 ; text-align: right;font-weight: normal;}
 .edu p {font-weight: normal; color: #3d4449}
 .edu h2 {margin-bottom: 0px;}
+/* Important stuff for this demo. */
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pics_in_a_row {
+  display: flex;
+}
+
+
+
+/* Aaaand just some general styling. */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+.pics_in_a_row {
+  margin: 120px 0;
+}
+
+.pics_in_a_row > div:not(:last-child) {
+  margin-right: 10%;
+}
+
+
+.img3 { flex: 1; }
+.img4 { flex: 1.3332; }
+.img6 { flex: 0.5628; }
+
+
 
 
 /* Posts */
